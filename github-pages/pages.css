@@ -1,0 +1,30 @@
+.pages-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 16px;
+  padding: 13px 14px;
+  border: 1px solid rgba(22, 25, 20, 0.1);
+  border-radius: 14px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.52);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.pages-note svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+}
+
+.connection-copy span em {
+  color: var(--green);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .pages-note {
+    margin-top: 12px;
+  }
+}
